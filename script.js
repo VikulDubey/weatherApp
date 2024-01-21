@@ -47,7 +47,7 @@ async function getWeatherData(cityName) {
   }
 }
 
-getWeatherData("Muzaffarnagar");
+setInterval(getWeatherData("Muzaffarnagar"), 3600 * 1000);
 
 submitButton.addEventListener("click", () => {
   const getCityName = userInput.value;
