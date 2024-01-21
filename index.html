@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="weatherApp">
+            <div class="header">
+                <input type="text" name="" id="userInput" value="" placeholder="Enter a city name">
+                <button type="submit" id="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="info">
+                <img id="weather_icon" src="./images/drizzle.png" alt="">
+                <div class="tempCity">
+                    <h2 id="temperature">23°C</h2>
+                    <h3 id="city">Muzaffarnagar</h3>
+                </div>
+            </div>
+            <div class="bottomDetails">
+                <div class="humidity">
+                    <img src="./images/humidity.png" alt="">
+                    <div class="humidityDetails">
+                        <p class="percentageDetail humidityValue">50%</p>
+                        <p class="descDetail">Humidity</p>
+                    </div>
+                </div>
+                <div class="windSpeed">
+                    <img src="./images/wind.png" alt="">
+                    <div class="windDetails">
+                        <p class="percentageDetail windValue">50%</p>
+                        <p class="descDetail">Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/f84b24b31a.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
